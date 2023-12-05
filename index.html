@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="stylesheet" href="index.css" />
+        <title>Simple Crud</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="link-side">
+                <a href="" class="link home">
+                    Home <span class="material-symbols-outlined">Home</span>
+                </a>
+                <a href="" class="link next">
+                    Next<span class="material-symbols-outlined">
+                        arrow_forward_ios
+                    </span>
+                </a>
+            </div>
+            <!--  -->
+            <div class="card-side">
+                <div class="card-side-container">
+                    <div class="home-section">
+                        <h1>Home</h1>
+                        <div class="home-container"></div>
+                    </div>
+                    <div class="next-section hidden">
+                        <h1>Next</h1>
+                        <div class="next-container"></div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="input-value">
+                    <div class="submit-btn-div">
+                        <label for="input">Say Something</label>
+                        <input class="inputValue" type="text" placeholder="" />
+                        <!--  -->
+                    </div>
+                    <button class="submit-btn">Submit</button>
+                    <!-- <div class="edit-buttons hidden">
+                        <button class="confirm-edit">Confirm</button>
+                        <button class="cancel-edit">Cancel</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+<!-- 
+`const cardObject = {
+            section: section,
+            array: array,
+            div: {
+                editAndDeleteDiv: editAndDeleteDiv,
+                confirmAndCancelDiv: confirmAndDelete,
+            },
+            button: {
+                cancelBtn: cancelBtn,
+                confirmBtn: confirmBtn,
+                editBtn: editBtn,
+                deleteBtn: deleteBtn,
+            },
+        };
+
+ -->
